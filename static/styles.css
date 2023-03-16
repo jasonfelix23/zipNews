@@ -1,0 +1,108 @@
+
+body {
+    font-family: "Sofia Sans";
+    font-size: clamp(1rem, 1.25vw + 0.5rem, 2rem);
+    line-height: 1.5;
+    background-color: #fafafa;
+}
+
+/* ch units are fantastic paired with fluid type */
+main {
+max-width: 75ch;
+margin: 0 auto 10ch auto;
+padding: 0 2ch;
+}
+
+
+
+h1 {
+font-size: 2.5em;
+}
+
+h2 {
+font-size: 2em;
+}
+
+h3 {
+font-size: 1.5em;
+}
+
+h4 {
+font-size: 1.25em;
+}
+hr {
+border: 0;
+border-top: 0.25em dotted currentColor;
+}
+
+a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #808080;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.em16 {
+width: 16em;
+height: 16em;
+}
+
+.em8 {
+width: 8em;
+height: 8em;
+}
+
+.em4 {
+width: 4em;
+height: 4em;
+}
+.btn {
+    display: inline-block;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #1a1a1a 2px;box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+    text-align: center;
+    transition: all 0.2s;
+  }
+
+.random {
+color: #1a1a1a;
+background: #fff;
+box-sizing: border-box;
+
+}
+
+.random:hover {
+color: #ffffff;
+background-color: rgb(0, 0, 0);
+}
+
+.analyze {
+    border: 0.16em solid orangered;
+    background-color: orangered;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+.analyze:hover {
+    color: rgb(3, 3, 3);
+}
+
+.hidden{
+    background-color: #fafafa;
+}
+.show{
+    background-color: mark;
+    color: marktext;
+}
